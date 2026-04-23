@@ -1,9 +1,9 @@
 {
   "name": "astro-blog",
   "buildCommand": "pnpm build",
-  "installCommand": "corepack enable && pnpm install",
+  "installCommand": "pnpm install",
   "outputDirectory": "dist",
-  "nodeVersion": "24.5.0",
+  "nodeVersion": "22.11.0",
   "environmentVariables": {
     "NODE_ENV": "production"
   }
