@@ -23,7 +23,13 @@
     { "rule": "*semi", "severity": "off", "fixable": true }
   ],
 
-  // Enable eslint for all supported languages
+  "eslint.ignorePatterns": [
+    "edgeone.json",
+    ".devcontainer/**",
+    "node_modules/**",
+    "dist/**"
+  ],
+
   "eslint.validate": [
     "javascript",
     "javascriptreact",
