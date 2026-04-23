@@ -1,8 +1,8 @@
 {
   "name": "astro-theme-retypeset",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
   "features": {
-    "ghcr.io/devcontainers/features/node:1": { "version": "24.5.0" },
+    "ghcr.io/devcontainers/features/node:1": { "version": "22.11.0" },
     "ghcr.io/devcontainers/features/git:1": {},
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
