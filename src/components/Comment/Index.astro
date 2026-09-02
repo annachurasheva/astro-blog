@@ -1,0 +1,18 @@
+---
+// import Disqus from '@/components/Comment/Disqus.astro'
+import Giscus from '@/components/Comment/Giscus.astro'
+import { themeConfig } from '@/config'
+
+const { enabled: enableComment } = themeConfig.comment
+
+// Disqus
+// const disqusShortname = themeConfig.comment.disqus?.shortname ?? ''
+// const showDisqus = enableComment && Boolean(disqusShortname.trim())
+
+// Giscus
+const giscusRepo = themeConfig.comment.giscus?.repo ?? ''
+const showGiscus = enableComment && Boolean(giscusRepo.trim())
+---
+
+<!-- {showDisqus && <Disqus />} -->
+{showGiscus && <Giscus />}
