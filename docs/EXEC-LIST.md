@@ -1,4 +1,5 @@
 <!-- ФАЙЛ: docs/EXEC-LIST.md -->
+
 # EXEC-LIST v3 — список на исполнение для Кодера
 Читать ПОСЛЕ `QWEN.md`. Журнал — `docs/JOURNAL.md`.
 
