@@ -98,3 +98,34 @@ Result (59 files):
 ┃ Local    http://localhost:4321/
 ┃ Network  use --host to expose
 23:48:20 watching for file changes...
+
+23:48:19 [content] Synced content
+23:48:20 [vite] Re-optimizing dependencies because vite config has changed
+ astro  v6.1.5 ready in 15630 ms
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+23:48:20 watching for file changes...
+00:03:42 [ERROR] Error: Failed to parse image reference: {&#x22;inferSize&#x22;:true,&#x22;src&#x22;:&#x22;https://image.radishzz.cc/image/gallery/sheep-1.jpg&#x22;,&#x22;alt&#x22;:&#x22;羊驼&#x22;,&#x22;index&#x22;:0}
+    at updateImageReferencesInBody (C:\astro-blog\node_modules\.pnpm\astro@6.1.5_@types+node@25._6d0c47d141c1ea47b78a1edce0d9f0d9\node_modules\astro\dist\content\runtime.js:338:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async renderEntry (C:\astro-blog\node_modules\.pnpm\astro@6.1.5_@types+node@25._6d0c47d141c1ea47b78a1edce0d9f0d9\node_modules\astro\dist\content\runtime.js:396:82)
+    at async addMetaToPost (C:\astro-blog\src\utils\content.ts:26:39)
+    at async Promise.all (index 4)
+    at async _getPosts (C:\astro-blog\src\utils\content.ts:90:25)
+00:24:09 [ERROR] Error: Failed to parse image reference: {&#x22;inferSize&#x22;:true,&#x22;src&#x22;:&#x22;https://image.radishzz.cc/image/gallery/sheep-1.jpg&#x22;,&#x22;alt&#x22;:&#x22;羊驼&#x22;,&#x22;index&#x22;:0}
+    at updateImageReferencesInBody (C:\astro-blog\node_modules\.pnpm\astro@6.1.5_@types+node@25._6d0c47d141c1ea47b78a1edce0d9f0d9\node_modules\astro\dist\content\runtime.js:338:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async renderEntry (C:\astro-blog\node_modules\.pnpm\astro@6.1.5_@types+node@25._6d0c47d141c1ea47b78a1edce0d9f0d9\node_modules\astro\dist\content\runtime.js:396:82)
+    at async addMetaToPost (C:\astro-blog\src\utils\content.ts:26:39)
+    at async Promise.all (index 4)
+    at async _getPosts (C:\astro-blog\src\utils\content.ts:90:25)
+00:24:09 [ERROR] Failed to parse image reference: {&#x22;inferSize&#x22;:true,&#x22;src&#x22;:&#x22;https://image.radishzz.cc/image/gallery/sheep-1.jpg&#x22;,&#x22;alt&#x22;:&#x22;羊驼&#x22;,&#x22;index&#x22;:0}
+  Stack trace:
+    at updateImageReferencesInBody (C:\astro-blog\node_modules\.pnpm\astro@6.1.5_@types+node@25._6d0c47d141c1ea47b78a1edce0d9f0d9\node_modules\astro\dist\content\runtime.js:338:13)
+    at async renderEntry (C:\astro-blog\node_modules\.pnpm\astro@6.1.5_@types+node@25._6d0c47d141c1ea47b78a1edce0d9f0d9\node_modules\astro\dist\content\runtime.js:396:82)
+    at async Promise.all (index 4)
+00:24:09 [ERROR] Failed to parse image reference: {&#x22;inferSize&#x22;:true,&#x22;src&#x22;:&#x22;https://image.radishzz.cc/image/gallery/sheep-1.jpg&#x22;,&#x22;alt&#x22;:&#x22;羊驼&#x22;,&#x22;index&#x22;:0}
+  Stack trace:
+    at updateImageReferencesInBody (C:\astro-blog\node_modules\.pnpm\astro@6.1.5_@types+node@25._6d0c47d141c1ea47b78a1edce0d9f0d9\node_modules\astro\dist\content\runtime.js:338:13)
+    at async renderEntry (C:\astro-blog\node_modules\.pnpm\astro@6.1.5_@types+node@25._6d0c47d141c1ea47b78a1edce0d9f0d9\node_modules\astro\dist\content\runtime.js:396:82)
+    at async Promise.all (index 4)
