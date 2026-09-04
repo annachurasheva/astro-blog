@@ -34,7 +34,7 @@ const siteDescription = i18nTitle ? currentUI.description : description
 // Page Metadata
 const pageTitle = postTitle ? `${postTitle} | ${siteTitle}` : `${siteTitle} - ${siteSubtitle}`
 const pageDescription = postDescription || siteDescription
-const pageImage = `${base}/og/${postSlug ?? 'index'}.png`
+const pageImage = new URL(`${base}/og/${postSlug ?? 'index'}.png`, Astro.url.origin)
 ---
 
 <head>
