@@ -1,9 +1,6 @@
-import type { CollectionEntry } from 'astro:content'
-import { OGImageRoute } from 'astro-og-canvas'
-import { getCollection } from 'astro:content'
-import { getPostDescription } from '@/utils/description'
+import { themeConfig } from '@/config'
 
-// eslint-disable-next-line antfu/no-top-level-await
+// Create slug-to-metadata lookup object for blog posts
 const posts = await getCollection('posts')
 
 // Create slug-to-metadata lookup object for blog posts
