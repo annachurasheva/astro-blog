@@ -63,7 +63,7 @@ export const themeConfig: ThemeConfig = {
     locale: 'ru', // русский первый
     // more languages
     // not fill in the locale code above again, can be an empty array []
-    moreLocales: ['en', 'es', 'ja', 'zh-tw'],
+    moreLocales: ['en', 'es', 'ja', 'zh', 'zh-tw'],
     // post font style
     fontStyle: 'sans', // sans | serif
     // post date format
