@@ -1,18 +1,33 @@
+import type { CollectionEntry } from 'astro:content'
+import { OGImageRoute } from 'astro-og-canvas'
+import { getCollection } from 'astro:content'
 import { themeConfig } from '@/config'
+import { getPostDescription } from '@/utils/description'
 
-// Create slug-to-metadata lookup object for blog posts
+// eslint-disable-next-line antfu/no-top-level-await
 const posts = await getCollection('posts')
 
 // Create slug-to-metadata lookup object for blog posts
-const pages = Object.fromEntries(
-  posts.map((post: CollectionEntry<'posts'>) => [
-    post.id,
-    {
-      title: post.data.title,
-      description: getPostDescription(post, 'og'),
-    },
-  ]),
-)
+type PageEntry = { title: string, description: string }
+
+const pages: Record<string, PageEntry> = {
+  // index page entry: превью главной страницы из локального генератора,
+  // внешние сервисы (Apiflash и подобные) не используются
+  index: {
+    title: themeConfig.site.title,
+    description: themeConfig.site.description,
+  },
+  // blog post entries
+  ...Object.fromEntries(
+    posts.map((post: CollectionEntry<'posts'>) => [
+      post.id,
+      {
+        title: post.data.title,
+        description: getPostDescription(post, 'og'),
+      },
+    ]),
+  ),
+}
 
 // Configure Open Graph image generation route
 // eslint-disable-next-line antfu/no-top-level-await
