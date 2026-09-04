@@ -1,0 +1,87 @@
+diff --git a/package.json b/package.json
+index 2f4b5b3..b70fca2 100644
+--- a/package.json
++++ b/package.json
+@@ -1,9 +1,9 @@
+ {
+-  "name": "astro-theme-retypeset",
++  "name": "astro-blog",
+   "type": "module",
+   "version": "1.0.0",
+   "packageManager": "pnpm@10.33.0",
+-  "repository": "https://github.com/radishzzz/astro-theme-retypeset",
++  "repository": "https://github.com/annachurasheva/astro-blog",
+   "scripts": {
+     "dev": "astro check && astro dev",
+     "build": "astro check && astro build && pnpm apply-lqip",
+diff --git a/src/config.ts b/src/config.ts
+index bf49ed5..1469d03 100644
+--- a/src/config.ts
++++ b/src/config.ts
+@@ -4,15 +4,15 @@ export const themeConfig: ThemeConfig = {
+   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
+   site: {
+     // site title
+-    title: 'Retypeset',
++    title: 'Мемориал Корпечь, Крым',
+     // site subtitle
+-    subtitle: 'Revive the beauty of typography',
++    subtitle: 'Памяти жертв политических репрессий',
+     // site description
+     description: 'Retypeset is a static blog theme based on the Astro framework. Inspired by Typography, Retypeset establishes a new visual standard and reimagines the layout of all pages, creating a reading experience reminiscent of paper books, reviving the beauty of typography. Details in every sight, elegance in every space.',
+     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
+     i18nTitle: true, // true | false
+     // author name
+-    author: 'radishzz',
++    author: 'Anna Churasheva',
+     // site url
+     url: 'https://retypeset.radishzz.cc',
+     // base path
+@@ -21,6 +21,8 @@ export const themeConfig: ThemeConfig = {
+     // favicon url
+     // recommended formats: svg, png or ico
+     favicon: '/icons/favicon.svg', // or https://example.com/favicon.svg
++    // author emails
++    emails: ['anna.churasheva@gmail.com', '79787883649@ya.ru'],
+   },
+   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
+
+@@ -120,7 +122,7 @@ export const themeConfig: ThemeConfig = {
+   // SEO SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
+   seo: {
+     // @twitter ID
+-    twitterID: '@radishzz_',
++    twitterID: '',
+     // site verification
+     verification: {
+       // google search console
+@@ -141,7 +143,7 @@ export const themeConfig: ThemeConfig = {
+     googleAnalyticsID: '',
+     // umami analytics
+     // https://cloud.umami.is
+-    umamiAnalyticsID: 'dab0e4b9-9cbf-43c3-af60-b09d3b545c38',
++    umamiAnalyticsID: '',
+     // folo verification
+     // https://folo.is/
+     folo: {
+@@ -184,19 +186,7 @@ export const themeConfig: ThemeConfig = {
+   // FOOTER SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
+
+   // PRELOAD SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
+-  preload: {
+-    // image hosting url
+-    // optimize remote images and generate low-quality placeholders
+-    imageHostURL: 'image.radishzz.cc',
+-    // custom google analytics js
+-    // for users who proxy tracking scripts to a custom domain
+-    // see https://gist.github.com/xiaopc/0602f06ca465d76bd9efd3dda9393738
+-    customGoogleAnalyticsJS: '',
+-    // custom umami analytics js
+-    // for users who self-deploy umami or proxy tracking scripts to a custom domain
+-    // see https://umami.is/docs/bypass-ad-blockers
+-    customUmamiAnalyticsJS: 'https://views.radishzz.cc/script.js',
+-  },
++  preload: {},
+   // PRELOAD SETTINGS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> END
+ }
+
