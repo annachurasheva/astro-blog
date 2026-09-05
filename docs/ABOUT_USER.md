@@ -1,5 +1,6 @@
-# ABOUT_USER.md · v3 · 2026-09-05
-# Координата: annachurasheva/astro-blog · docs/ABOUT_USER.md · v3
+# ABOUT_USER.md
+
+Координата: `annachurasheva/astro-blog` · `docs/ABOUT_USER.md` · v3 · 2026-09-05
 
 ## Кто
 - Владелец смыслов и приоритетов; не программист; не оратор;
@@ -15,7 +16,7 @@
 ## Система (фиксирована, смена ПК невозможна)
 - W10 кастомная: буфер обмена ненадёжен — маршрутов через буфер НЕТ.
 - PowerShell 7.6.5, Edge.
-- Локаль: C:\astro-b-v2\
+- Локаль: C:\astro-blog\
 ` Node 24.5.0 (.nvmrc) · блог: pnpm 10.33.0 (corepack) ·
   (pnpm-lock.yaml = источник истины) · порт: блог 4321
 - Тест-профиль Edge: C:\Users\An\serv6675\Edge_test_context\
@@ -34,4 +35,4 @@
   пользователь заполняет руками → коммит → отчёт.
 - Верификация: машинная (npx tsc --noEmit, Select-String) + одно
   движение пользователя, когда ресурс позволит.
-																							
+
