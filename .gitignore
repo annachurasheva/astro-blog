@@ -6,6 +6,9 @@ dist/
 # dependencies
 node_modules/
 poligon-1/
+poligon-2/
+dashboard-1/
+dashboard/
 
 # logs
 npm-debug.log*
