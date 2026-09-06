@@ -1,9 +1,11 @@
 <!-- ФАЙЛ: docs/JOURNAL.md -->
-# ЖУРНАЛ · ревизия 43 (коротко)
-- Pages revision live через Actions (099 закрыт; маршрут А подтверждён).
-- Хоровод с ключом остановлен: ключ остаётся в C:\astro-blog\.ssh;
-  глобальный sshCommand на него; копия в astro-projects удалена.
-- Дальше прямая: клон astro-blog → ветки dev (102) → Кодер I-2 в revision.
-- Открыто: К4, donor-v1, Giscus/ОК-ВК, привязки 076, зеркало SC позже,
-  origin2 снять после стабилизации SSH.
-Нумерация далее с 109.
+# ЖУРНАЛ · ревизия 44 (коротко)
+- SSH восстановлен (icacls сработал); ключ живёт в C:\astro-projects\.ssh;
+  хоровод закрыт; выдан регламент 110 для трёх репо.
+- Ветки: bak + qwen-dashboard-coder (revision) + qwen-memorial-coder
+  (memorial); astro-blog заморожен; PR-наука после первой приёмки.
+- QWEN v6 + docs/TASKS.md (T-01 SEO) + docs/JOURNAL-ACTIONS.md — в revision;
+  Кодер-приложению добавить галочку memorial.
+- T-01 идёт ДО включения memorial в EdgeOne; К4 ждёт «да/нет».
+- Открыто: donor-v1, Giscus/ОК-ВК, привязки 076, зеркало SC позже.
+Нумерация далее с 113.
