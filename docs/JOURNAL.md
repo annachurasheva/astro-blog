@@ -1,11 +1,14 @@
-<!-- ФАЙЛ: docs/JOURNAL.md -->
-# ЖУРНАЛ · ревизия 44 (коротко)
-- SSH восстановлен (icacls сработал); ключ живёт в C:\astro-projects\.ssh;
-  хоровод закрыт; выдан регламент 110 для трёх репо.
-- Ветки: bak + qwen-dashboard-coder (revision) + qwen-memorial-coder
-  (memorial); astro-blog заморожен; PR-наука после первой приёмки.
-- QWEN v6 + docs/TASKS.md (T-01 SEO) + docs/JOURNAL-ACTIONS.md — в revision;
-  Кодер-приложению добавить галочку memorial.
-- T-01 идёт ДО включения memorial в EdgeOne; К4 ждёт «да/нет».
-- Открыто: donor-v1, Giscus/ОК-ВК, привязки 076, зеркало SC позже.
-Нумерация далее с 113.
+# JOURNAL · ревизия 45
+
+Координаты: `annachurasheva/*` · проектировщик · 2026-09-06
+Уровень читателя: начальный. Всё — простыми словами.
+
+- Стиль INSTRUCTION.md принят как стандарт моих бумаг.
+- Конструкт коммита 3.5 — обязателен в каждой инструкции.
+- Выдано 113–115: astro-blog origin→SSH; main re-track в revision/memorial;
+  бумаги поля в qwen-dashboard-coder.
+- Состояние веток (из otvet-110): revision и memorial — origin SSH,
+  origin2 снят, bak + dev созданы и запушены; astro-blog — origin HTTPS
+  (меняем в 115А).
+- Открыто: К4 «да/нет», donor-v1, Giscus/ОК-ВК, привязки 076, зеркало SC.
+Нумерация далее с 116
