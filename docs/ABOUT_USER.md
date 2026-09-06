@@ -16,7 +16,7 @@
 ## Система (фиксирована, смена ПК невозможна)
 - W10 кастомная: буфер обмена ненадёжен — маршрутов через буфер НЕТ.
 - PowerShell 7.6.5, Edge.
-- Локаль: C:\astro-blog\
+- Локаль: C:\astro-projects\astro-blog\
 ` Node 24.5.0 (.nvmrc) · блог: pnpm 10.33.0 (corepack) ·
   (pnpm-lock.yaml = источник истины) · порт: блог 4321
 - Тест-профиль Edge: C:\Users\An\serv6675\Edge_test_context\
