@@ -28,4 +28,15 @@ nothing to commit, working tree clean
 PS C:\astro-projects\revision-of-astro-6-1-5> 
 
 
+PS C:\astro-projects\revision-of-astro-6-1-5> git log -1 --oneline
+4f7b1f4 (HEAD -> qwen-dashboard-coder, origin/qwen-dashboard-coder) Create TASKS.md
+PS C:\astro-projects\revision-of-astro-6-1-5> git log -5 --oneline
+4f7b1f4 (HEAD -> qwen-dashboard-coder, origin/qwen-dashboard-coder) Create TASKS.md
+71045d1 Update QWEN.md
+b8ff373 Create JOURNAL-ACTIONS.md
+0903e80 docs: v6 · регламент Кодера поля уроков
+303951c (origin/main, origin/bak, origin/HEAD, main, bak) init: revision explain-board
+PS C:\astro-projects\revision-of-astro-6-1-5>
+
+
 
