@@ -1,9 +1,8 @@
 <!-- ФАЙЛ: docs/JOURNAL.md -->
-# ЖУРНАЛ · ревизия 41 (коротко)
-- Причина Permission denied при clone: sshCommand был локальный, не глобальный.
-- Выдано: копия ключей в C:\astro-projects\.ssh; глобальный core.sshCommand
-  (слеши, без внутренних кавычек); --unset локальных; клон astro-blog;
-  ветки разработки main-qwen3-coder-plus во всех трёх репо (main = приёмка).
-- Pages revision: ждём статус Actions (099) — всё ещё открыт.
+# ЖУРНАЛ · ревизия 42 (коротко)
+- Копия ключа отклонена OpenSSH из-за ACL наследования («too open»);
+  лечение: icacls /inheritance:r /grant:r user:(F); запас — старый путь ключа.
+- known_hosts докопировать; затем fetch/clone/ветки по 101–102.
+- Pages revision: статус Actions всё ещё жду (099).
 - Открыто: К4, donor-v1, Giscus/ОК-ВК, привязки 076, зеркало SC позже.
-Нумерация далее с 103.
+Нумерация далее с 106.
